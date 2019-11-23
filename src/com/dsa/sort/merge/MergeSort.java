@@ -18,7 +18,7 @@ public class MergeSort {
 		mergesort(a,0,(a.length-1));
 		
 		for(int p=0; p<a.length;p++){
-			System.out.println(a[p]);
+			System.out.print(a[p]+" ");
 		}
 		
 
